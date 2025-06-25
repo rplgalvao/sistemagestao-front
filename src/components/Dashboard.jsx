@@ -201,7 +201,7 @@ const Dashboard = ({ user, token, onLogout }) => {
   const renderQuadro = () => (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold">Quadro Kanban</h2>
+        <h2 className="text-2xl font-bold">Quadro Gestão Gráfica</h2>
         <div className="flex space-x-2">
           <Button variant="outline" size="sm">
             <Filter className="h-4 w-4 mr-2" />
